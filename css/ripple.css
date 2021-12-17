@@ -1,0 +1,22 @@
+.ripple {
+    width: 10px;
+    height: 10px;
+    transform: scale(0);
+    background: rgb(70, 87, 65);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events:none;
+    opacity: .25;
+  }
+  
+  .animate {
+    animation: ripple-mo 1s cubic-bezier(0, 0, 0.2, 1);
+  }
+  @keyframes ripple-mo {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(10);
+    }
+  }
