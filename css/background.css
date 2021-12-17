@@ -10,6 +10,8 @@ body{
   -moz-user-select: -moz-none;
   -o-user-select: none;
   user-select: none;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
 }
 
 img {
