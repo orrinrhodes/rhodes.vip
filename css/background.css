@@ -12,6 +12,10 @@ body{
   user-select: none;
 }
 
+img {
+  margin-bottom: 1rem;
+}
+
 p {
   -webkit-user-select: text;
   -khtml-user-select: text;
