@@ -5,6 +5,11 @@ body,a{
   text-decoration: none;
 }
 
+html,body {
+  overflow: hidden;
+  position: fixed;
+}
+
 * {
   -webkit-user-select: none;
   -khtml-user-select: none;
