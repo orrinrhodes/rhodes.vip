@@ -1,6 +1,7 @@
 body{
   background-color: rgb(68, 27, 37);
   color: rgb(238, 237, 184);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 * {
@@ -17,5 +18,4 @@ p {
   -moz-user-select: text;
   -o-user-select: text;
   user-select: text;
-  margin-bottom: 2rem;
 }
