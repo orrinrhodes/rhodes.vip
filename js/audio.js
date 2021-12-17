@@ -1,7 +1,7 @@
 window.onload = function() {
   
     var audio = document.getElementById("sigma");
-    audio.play();
+    audio.muted = false;
     console.log('hey lol');
 
 };
