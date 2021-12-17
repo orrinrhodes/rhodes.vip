@@ -1,7 +1,3 @@
-window.onload = function() {
-  
-    var audio = document.getElementById("sigma");
-    audio.muted = false;
-    console.log('hey lol');
-
-};
+var audio = document.getElementById("sigma");
+audio.muted = false;
+console.log('hey lol');
