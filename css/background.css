@@ -1,7 +1,8 @@
-body{
+body,a{
   background-color: rgb(68, 27, 37);
   color: rgb(238, 237, 184);
   font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
 }
 
 * {
