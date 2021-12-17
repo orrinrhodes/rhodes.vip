@@ -1,29 +1,27 @@
-body,a{
+html,body {
+  overflow-x: hidden;
+}
+
+body{
   background-color: rgb(68, 27, 37);
   color: rgb(238, 237, 184);
   font-family: 'Courier New', Courier, monospace;
   text-decoration: none;
-}
-
-html,body {
-  overflow: hidden;
-  position: fixed;
+  position: relative;
 }
 
 * {
+  -moz-window-dragging: none;
+  -webkit-user-drag: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
-  -moz-user-select: -moz-none;
+  -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
 }
 
-img {
-  margin-top: 1rem;
-  margin-right: .5rem;
-}
 
 p {
   -webkit-user-select: text;
@@ -31,6 +29,11 @@ p {
   -moz-user-select: text;
   -o-user-select: text;
   user-select: text;
+}
+
+a {
+  color: rgb(238, 237, 184);
+  text-decoration: none;
 }
 
 audio { display:none;}
