@@ -13,5 +13,4 @@ function myFunction() {
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled = (max/height) * 100;
     document.getElementById("line").style.height = scrolled + "%";
-    console.log(scrolled);
 };
