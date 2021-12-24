@@ -4,15 +4,7 @@ function sleep(ms) {
     );
 };
 
-played = false;
-
 async function drawRipple(event){
-    if (!played) {
-        var sigma = new Audio('./audio/sigma.mp3');
-        sigma.play();
-        sigma.autoplay = true;
-        played = true;
-    }
     var x = '';
     var y = '';
     if (event.type == 'mousemove') {
