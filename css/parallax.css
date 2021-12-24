@@ -1,6 +1,6 @@
 .parallax {
     height: 40%;
-    width: 90%;
+    width: 100%;
 
     background-image: url('../images/minecraft.png');
     background-attachment: fixed;
@@ -8,8 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    overflow: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .parallax::-webkit-scrollbar {
@@ -23,8 +22,8 @@
 
 .baby {
     position: absolute;
-    width: 25%;
-    bottom: -15vh;
+    width: 40%;
+    bottom: -30%;
 }
 
 .quest {

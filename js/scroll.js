@@ -4,7 +4,8 @@ function scroll() {
     var max = document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled = (max/height) * 100;
-    document.getElementById("line").style.height = scrolled + "%";
+    document.getElementById('line').style.height = scrolled + '%';
+    document.getElementById('baby').style.bottom = (scrolled/5)-25 + 'vh';
 };
 
 function play() {
@@ -16,5 +17,5 @@ function play() {
     }
 }
 
-window.addEventListener("click", play);
+window.addEventListener('click', play);
 window.addEventListener('scroll',scroll);
