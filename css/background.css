@@ -32,6 +32,7 @@ p {
 }
 
 a {
+  line-height:3rem;
   color: rgb(238, 237, 184);
   text-decoration: none;
 }
