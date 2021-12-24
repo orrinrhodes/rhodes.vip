@@ -1,0 +1,34 @@
+.parallax {
+    height: 40%;
+    width: 90%;
+
+    background-image: url('../images/minecraft.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.parallax::-webkit-scrollbar {
+    display: none;
+}
+
+.group {
+    position: relative;
+    height: 50vh;
+}
+
+.baby {
+    position: absolute;
+    width: 25%;
+    bottom: -15vh;
+}
+
+.quest {
+    position: absolute;
+    width: 25%;
+    left: 50%;
+}

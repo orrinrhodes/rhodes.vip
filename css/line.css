@@ -1,0 +1,8 @@
+.progress {
+    position: fixed;
+    top: 0;
+    right: 50px;
+    background: rgb(255, 84, 84);
+    width: 10px;
+    height: 100%;
+}

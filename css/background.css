@@ -1,15 +1,3 @@
-html,body {
-  overflow-x: hidden;
-}
-
-body{
-  background-color: rgb(68, 27, 37);
-  color: rgb(238, 237, 184);
-  font-family: 'Courier New', Courier, monospace;
-  text-decoration: none;
-  position: relative;
-}
-
 * {
   -moz-window-dragging: none;
   -webkit-user-drag: none;
@@ -22,6 +10,17 @@ body{
   touch-action: manipulation;
 }
 
+html,body {
+  height: 100%;
+  background-color: rgb(48, 18, 23);
+}
+
+body{
+  color: rgb(238, 237, 184);
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  position: relative;
+}
 
 p {
   -webkit-user-select: text;
