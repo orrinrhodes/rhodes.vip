@@ -10,6 +10,16 @@
   touch-action: manipulation;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+-ms-overflow-style: none;
+scrollbar-width: none;
+}
+
+
 html,body {
   height: 100%;
   background-color: rgb(48, 18, 23);
@@ -20,6 +30,7 @@ body{
   font-family: 'Courier New', Courier, monospace;
   text-decoration: none;
   position: relative;
+  
 }
 
 p {
