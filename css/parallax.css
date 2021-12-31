@@ -19,11 +19,11 @@
 
 .group {
     position: relative;
-    height: 50vh;
+    height: 35vh;
 }
 
 .baby {
     position: absolute;
-    width: 40%;
-    bottom: -30%;
+    width: 50vw;
+    height: -50vh;
 }

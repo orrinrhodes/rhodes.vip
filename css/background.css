@@ -15,9 +15,16 @@
 }
 
 * {
--ms-overflow-style: none;
-scrollbar-width: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin: 0;
+  padding: 0;
 }
+
+/* 
+justify-content: center;
+align-items: center;
+*/
 
 body {
   background-color: rgb(48, 18, 23);
@@ -35,10 +42,26 @@ body {
 .header {
   background-color: coral;
   position: fixed;
+  overflow: hidden;
+  z-index: 10;
   top: 0;
   left: 0;
   width: 100%;
   height: 10%;
+}
+
+.eye {
+  position:absolute;
+  border: none;
+  display: flex;
+
+  right: 5vh;
+  
+  width: 6vh;
+  height: 6vh;
+  
+  background-color: black;
+  border-radius: 100% 100% 100% 100%;
 }
 
 p {
@@ -48,12 +71,6 @@ p {
   -o-user-select: text;
   user-select: text;
   height:auto;
-}
-
-a {
-  line-height:3rem;
-  color: rgb(238, 237, 184);
-  text-decoration: none;
 }
 
 .resume{
