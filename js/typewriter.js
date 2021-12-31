@@ -1,6 +1,6 @@
 const quotes = [
-    [`sexy <b>man</b>`,'orrin'],
-    [`orrin you're so <b>sexy</b>`,'females'],
+    [`how are you <b>so</b> sexy??`,'orrin'],
+    [`orrin you're so <b>sexy</b> and irresistible 😻😻`,'females'],
     [`shut up orrin <i>ok ;(</i>`,'liz'],
     [`Orrin is a muscular, talented, <b>big brain</b>, sex beast`,'my peers'],
     [`Cheeky, <b>smork</b>, half-listens <i>(i only listen to the alpha chad i am)</i>`,'pussy man'],
