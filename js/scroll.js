@@ -13,8 +13,10 @@ function scroll() {
         console.log('help');
         title.innerHTML = 'help im being pushed !<br>put me back';
     } else if (pushed & scrolled == 0) {
-        title.textContent = 'thank you'
-    }
+        title.textContent = 'thank you';
+    } else if (scrolled == 75) {
+        title.textContent = '';
+    };
 };
 
 function play() {
