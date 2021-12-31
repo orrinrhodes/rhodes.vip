@@ -32,3 +32,17 @@ i {
 
     margin-bottom: 2rem;
 }
+
+#fuel {
+    position: absolute;
+    opacity: .5;
+    width: 10%;
+}
+
+#fuel-link {
+    text-decoration: underline;
+}
+
+#fuel-link:hover {
+
+}
