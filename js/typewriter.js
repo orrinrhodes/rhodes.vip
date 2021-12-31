@@ -51,7 +51,7 @@ function typeWriter(i=0, index=1, direction=1) {
     console.log(author.children,author.childNodes)
     setTimeout(() => typeWriter((i+1) % quotes.length), wait);
   } else {
-    author.innerHTML = `-<i>${quotes[i][1]}</i>`;
+    author.innerHTML = `-<b><i>${quotes[i][1]}</i></b>`;
     author.appendChild(fadein);
     setTimeout(() => typeWriter(i, index+direction, direction), speed);
   };
