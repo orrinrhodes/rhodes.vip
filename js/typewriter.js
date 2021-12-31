@@ -10,7 +10,7 @@ const quotes = [
 
 const keyFrames = document.createElement('style');
 function fade(selector,start,finish,t) {
-  let fadeAnimation =
+  var fadeAnimation =
   `
   @keyframes fade {
     0%{
@@ -38,8 +38,8 @@ var speed = 100; // depends on str length
 var wait = 2000;
 
 function typeWriter(i=0, index=1, direction=1) {
-  let fadein = fade('#author',0,1,2);
-  let written = quotes[i][0].slice(0, index);
+  var fadein = fade('#author',0,1,2);
+  var written = quotes[i][0].slice(0, index);
   wait = (quotes[i][0].length * 65 + 1300)/1.5; // time to read
   quote.innerHTML = `"${written}<span>\u25ae</span>"`;
   if (written.length >= quotes[i][0].length) {
