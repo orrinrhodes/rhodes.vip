@@ -8,7 +8,7 @@ function scroll() {
     var scrolled = (max/height) * 100;
     document.getElementById('line').style.height = scrolled + '%';
     document.getElementById('baby').style.bottom = (scrolled/5)-25 + 'vh';
-    if (scrolled > 50) {
+    if (scrolled >= 25) {
         pushed = true;
         console.log('help');
         title.innerHTML = 'help im being pushed !<br>put me back';
