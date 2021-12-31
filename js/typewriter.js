@@ -39,8 +39,11 @@ var wait = 2000;
 
 function typeWriter(i=0, index=1, direction=1) {
   var fadein = fade('#author',0,1,2);
+  if (direction < 0) {
+    speed = 50;
+  } else {speed = 100;};
   var written = quotes[i][0].slice(0, index);
-  wait = (quotes[i][0].length * 65 + 1300)/1.5; // time to read
+  wait = (quotes[i][0].length * 65 + 1300)/2; // time to read
   quote.innerHTML = `"${written}<span>\u25ae</span>"`;
   if (written.length >= quotes[i][0].length) {
     setTimeout(() => typeWriter(i, index-1, -1), wait);
