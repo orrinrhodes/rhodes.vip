@@ -1,5 +1,4 @@
 .parallax {
-    height: 40%;
     width: 100%;
 
     background-image: url('../images/minecraft.png');
@@ -9,6 +8,9 @@
     background-size: cover;
 
     overflow: hidden;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .parallax::-webkit-scrollbar {
