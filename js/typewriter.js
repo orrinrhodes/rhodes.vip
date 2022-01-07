@@ -4,7 +4,7 @@ const quotes = [
     [`shut up orrin <i>ok ;(</i>`,'liz'],
     [`Orrin is a muscular, talented, <b>big brain</b>, sex beast`,'my peers'],
     [`Cheeky, <b>smork</b>, half-listens <i>(i only listen to the alpha chad i am)</i>`,'pussy man'],
-    [`Orrin Rhodes is an intellectual <b>mastermind</b>, his creations and diversity is <b>out of the world</b>. He is an innovating master with his <b>craft</b> he is able to change the world. He has showed me and many others <b>the truth</b> about things like empathy and <b>morality</b>. Like when he almost <img id="fuel" src="./images/PROFESSIONALFUELTANK.jpg">[punched] his fuel tank and <b>died</b>. Thank you <i>(no problem g)</i> Orrin Rhodes for being a powerful leader and a risk taker for <b>societies</b> improvement of the future.`,'dan'],
+    [`Orrin Rhodes is an intellectual <b>mastermind</b>, his creations and diversity is <b>out of the world</b>. He is an innovating master with his <b>craft</b> he is able to change the world. He has showed me and many others <b>the truth</b> about things like empathy and <b>morality</b>. Like when he almost <img id="fuel" src="./images/PROFESSIONALFUELTANK.jpg">[punched] his fuel tank and <b>died</b>. Thank you <i>(no problem bb)</i> Orrin Rhodes for being a powerful leader and a risk taker for <b>societies</b> improvement of the future.`,'dan'],
     [`<b>srupid</b> <i>cant even spell smh</i>`,'aliya 🤢🤮']
 ];
 
