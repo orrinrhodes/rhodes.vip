@@ -25,5 +25,6 @@
 .baby {
     position: absolute;
     width: 50vw;
+    max-width: 30%;
     height: -50vh;
 }
