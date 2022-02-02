@@ -11,7 +11,7 @@ function scroll() {
     if (!pushed & scrolled >= 30) {
         pushed = true;
         title.style.fontSize = 'x-large';
-        title.innerHTML = 'help im being pushed !<br>put me back';
+        title.innerHTML = '<b>help</b> im being pushed !<br>put me back';
     } else if (completed & scrolled >= 75) {
         title.textContent = `orrin's dox`;
     } else if (!completed & pushed & scrolled == 0) {
