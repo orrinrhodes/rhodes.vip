@@ -22,7 +22,7 @@ i {
 }
 
 #typewriter {
-    margin-left: 1rem;
+    margin-left: 1vw;
     font-size: 150%;
 }
 
@@ -30,7 +30,7 @@ i {
     font-size: 125%;
     margin-left: 50%;
 
-    margin-bottom: 2rem;
+    margin-bottom: 2vh;
 }
 
 #fuel {

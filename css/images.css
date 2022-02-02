@@ -1,19 +1,20 @@
 .links {
-    width: 70vw;
+    width: 50vw;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15vw, 1fr));
-    gap: 4rem;
+    grid-template-columns: repeat(auto-fill, minmax(10vw, 1fr));
+    column-gap: 5vw;
+    row-gap: 12.5vh;
 
     margin: auto;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
 }
 
 .links div {
     border: 3px solid coral;
     position: relative;
 
-    padding: 1rem;
+    padding: 1vh;
 
     background-image: url(../images/minecraft.png);
     background-attachment: fixed;
@@ -30,6 +31,7 @@
 
 .links div a {
     color: rgb(238, 237, 184);
+    font-size: x-large;
     text-decoration: none;
     position: absolute;
     left: 1vw;
