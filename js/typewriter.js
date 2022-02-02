@@ -2,7 +2,7 @@ const quotes = [
     [`how are you <b>so</b> sexy??`,'orrin'],
     [`orrin you're so <b>sexy</b> and irresistible 😻😻`,'females'],
     [`shut up orrin <i>ok ;(</i>`,'liz'],
-    [`Orrin is a muscular, talented, <b>big brain</b>, sex beast`,'my peers'],
+    [`Orrin is a muscular, talented, <b>big brain</b>, sexy man`,'my peers'],
     [`Cheeky, <b>smork</b>, half-listens <i>(i dont listen to betas)</i>`,'pussy man'],
     [`Orrin Rhodes is an intellectual <b>mastermind</b>, his creations and diversity is <b>out of the world</b>. He is an innovating master with his <b>craft</b> he is able to change the world. He has showed me and many others <b>the truth</b> about things like empathy and <b>morality</b>. Thank you <i>(no problem bb)</i> Orrin Rhodes for being a powerful leader and a risk taker for <b>societies</b> improvement of the future.`,'dan'],
     [`<b>srupid</b> <i>cant even spell smh</i>`,'aliya 🤢🤮']
