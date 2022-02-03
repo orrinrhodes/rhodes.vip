@@ -1,7 +1,7 @@
 .progress {
     position: fixed;
     top: 0;
-    right: 4vh;
+    right: 2.5vw;
     background-color: coral;
     width: 8px;
     height: 0%;
