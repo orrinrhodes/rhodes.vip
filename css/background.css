@@ -50,7 +50,6 @@ body {
 
 #title {
   position: sticky;
-  left: 0;
   top: 10%;
   z-index: 10000;
 }

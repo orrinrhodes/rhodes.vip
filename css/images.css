@@ -51,15 +51,12 @@
 /* bottom */
 
 .side {
-    border: 3px solid coral;
-    width: 75%;
-    display: flex;
+    padding: 4vh;
+    /* overflow: hidden; */
 }
 
 .subimg {
-    overflow: hidden;
-    width: 40%;
-    margin-left: auto; margin-right: auto;
+    width: 15vw;
 }
 
 .subimg img {
@@ -67,6 +64,53 @@
     transition: 0.5s all ease-in-out;
 }
 
+@media only screen
+  and (min-device-width : 280px)
+  and (max-device-width : 480px){
+    .subimg img {width: 200%;}
+}
+
 .subimg:hover img {
-    transform: scale(1.5);
+    transform: scale(1.3);
+}
+
+
+.first {
+    margin-left: 10vw;
+    margin-right: auto;
+}
+
+.bilbo {
+    margin-left: auto;
+    margin-right: 10vw;
+}
+
+.fadeLeft {
+    animation: fadeLeft 1.5s both;
+}
+
+.fadeRight {
+    animation: fadeRight 1.5s both;
+}
+
+@keyframes fadeLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+
+@keyframes fadeRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
 }

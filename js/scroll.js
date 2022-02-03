@@ -21,4 +21,22 @@ function scroll() {
     };
 };
 
+function fadeIn(choice,animation) {
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if(entry.isIntersecting){
+                console.log(entry.target)
+                choice.classList.add(animation);
+            };
+        });
+    });
+    observer.observe(choice);
+};
+
+const gerald = document.querySelector(".first");
+const bilbo = document.querySelector(".bilbo");
+
+fadeIn(gerald,'fadeRight');
+fadeIn(bilbo,'fadeLeft');
+
 window.addEventListener('scroll',scroll);
