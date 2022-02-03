@@ -30,8 +30,9 @@ body {
   background-color: black;
   color: rgb(238, 237, 184);
   font-family: 'Courier New', Courier, monospace;
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .old {
