@@ -4,7 +4,7 @@ RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/$
 RewriteRule (?!^html/)^(.*)$ /html/$1 [L,NC]
 
 ErrorDocument 404 "<H1>oh no! 404</H1>"
