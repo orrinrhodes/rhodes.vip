@@ -6,4 +6,6 @@ RewriteRule ^ /%1 [NC,L,R]
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [NC,L]
 
+RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [QSA,L]
+
 ErrorDocument 404 "<H1>oh no! 404</H1>"
