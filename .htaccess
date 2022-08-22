@@ -1,9 +1,9 @@
 RewriteEngine On
 AllowOverride All
 
-RewriteRule ^html/(.+)$ /$1 [R=301,L]
+RewriteCond %{REQUEST_URI} !^/html/ [NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule (.+) /html/$1 [END]
+RewriteRule ^(.*)$ html/$1 [L]
 
 ErrorDocument 404 "<H1>oh no! 404</H1>"
