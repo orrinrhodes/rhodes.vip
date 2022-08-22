@@ -1,7 +1,8 @@
 RewriteEngine On
-RewriteCond %{THE_REQUEST} \ /+(.*?/?)index\.(php|html?)
-RewriteRule ^(.*)index\.(php|html?)$ /$1 [L,R=301]
+AllowOverride All
 
-DirectoryIndex index.html index.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
 
 ErrorDocument 404 "<H1>oh no! 404</H1>"
