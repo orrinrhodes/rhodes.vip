@@ -1,1 +1,9 @@
-ErrorDocument 404 ./html/notfound.html
+RewriteEngine On
+AllowOverride All
+
+RewriteCond %{REQUEST_URI} !^/html/ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ html/$1 [L]
+
+ErrorDocument 404 "<H1>oh no! 404</H1>"
